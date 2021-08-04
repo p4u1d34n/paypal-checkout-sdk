@@ -37,5 +37,21 @@
             "php-cs-fixer fix tests --rules=@PSR2"
         ]
     },
-    "type": "library"
+    "type": "library",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "paypal-checkout-sdk-pd", //give package name to anything, must be unique
+                "version": "1.0",
+                "source": {
+                    "url": "https://github.com/p4u1d34n/paypal-checkout-sdk.git", //git url
+                    "type": "git",
+                    "reference": "master" //git branch-name
+                }
+            }
+        }],
+        "require" : {
+          "paypal-checkout-sdk-pd": "1.0"
+        }
 }
