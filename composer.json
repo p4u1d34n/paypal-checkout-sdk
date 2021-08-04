@@ -19,7 +19,7 @@
     "name": "phpjuice/paypal-checkout-sdk",
     "prefer-stable": true,
     "require": {
-        "php": "^7.2",
+        "php": ">=7.4",
         "guzzlehttp/psr7": "^1.6",
         "guzzlehttp/guzzle": "^7.0",
         "ext-json": "*"
